@@ -10,6 +10,24 @@
     gap: 1.5rem;
 }
 
+.tooltip {
+    position: absolute;
+    top: -40px;
+    background: var(--raw-seinna);
+    min-width: max-content;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: var(--fw-700);
+    padding: 5px 10px;
+    border-radius: var(--radius-4);
+    box-shadow: var(--shadow-1);
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--transition-1);
+    z-index: 1;
+}
+
 /* scroll bar */
 ::-webkit-scrollbar{
     width: 0px;
