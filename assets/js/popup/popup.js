@@ -1,4 +1,4 @@
-// Popup Tab
+// popup tab
 $(function (){
     $('.popup-video').magnificPopup({
         type: 'iframe',
