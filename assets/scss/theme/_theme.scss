@@ -28,12 +28,13 @@ body.dark-theme{
 /* color correction */
 .dark-theme .footer{
     background-color: var(--body-color);
+    color: var(--text-color);
 }
 
 .dark-theme .discord{
-    background-color: var(--container-color);
+    background-color: var(--body-color);
 }
 
 .dark-theme .filters__content{
-    background-color: var(--container-color);
+    background-color: var(--body-color);
 }

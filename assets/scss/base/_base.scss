@@ -18,7 +18,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
     line-height: 1.5;
-    transition: .3s; // for theme changes
+    transition: none; // for theme changes
 }
 
 h1, h2, h3{
