@@ -1,0 +1,67 @@
+/*===== google fonts =====*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
+
+/*===== variables css =====*/
+:root{
+    --header-height: 3rem;
+
+    /*========== colors ==========*/
+    /* Purple: hsl(250, 66%, 75%) */
+    /*  Blue: hsl(207, 90%, 72%)  */
+    /*  Pink: hsl(356, 66%, 75%)  */
+    /*  Teal: hsl(174, 63%, 62%)  */
+    
+    --hue: 45;
+    --sat: 98%;
+    --lig: 60%;
+
+    --first-color: hsl(var(--hue), var(--sat), var(--lig));
+    --first-color-light: hsl(var(--hue), var(--sat), 85%);
+    --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
+    --first-color-alt: hsl(var(--hue), var(--sat), 53%);
+    --popup-box-shadow: #000;
+    --title-color: hsl(var(--hue), 4%, 15%);
+    --text-color: hsl(var(--hue), 4%, 35%);
+    --text-color-light: hsl(var(--hue), 4%, 65%);
+    --text-color-lighten: hsl(var(--hue), 4%, 82%);
+    --body-color: hsl(var(--hue), 0%, 100%);
+    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue), 4%, 85%);
+    --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+    
+
+    /*===== font and typography =====*/
+    --body-font: 'Jost', sans-serif;
+
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    // responsive typography
+    @media screen and (min-width: 968px){
+        --biggest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+
+    /*===== font weight =====*/
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /*===== margins =====*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+
+    /*==== z index ====*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}

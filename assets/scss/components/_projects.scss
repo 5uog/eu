@@ -1,0 +1,30 @@
+/*===== projects =====*/
+.projects{
+    &__grid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        padding: 10px;
+
+        & .thumbnail{
+            height: 250px;
+            width: 350px;
+            border-radius: .5rem;
+            box-shadow: 0 8px 24px var(--popup-box-shadow);
+            cursor: pointer;
+            overflow: hidden;
+
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: .2s linear;
+            }
+
+            &:hover img{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

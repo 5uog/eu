@@ -1,0 +1,21 @@
+/*===== layout =====*/
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: transparent;
+}
